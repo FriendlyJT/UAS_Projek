@@ -1,0 +1,11 @@
+@layer utilities {
+    header {
+      @apply bg-[#74A512] pt-5;
+    }
+    nav a {
+      @apply hover:underline hover:text-primary font-nav;
+    }
+    .button-primary {
+      @apply bg-primary text-white px-5 py-2 rounded-full;
+    }
+}
